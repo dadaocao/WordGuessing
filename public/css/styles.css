@@ -1,0 +1,38 @@
+*, *::before, *::after {
+    box-sizing: border-box;
+}
+
+html, body {
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    margin: 0;
+
+    font-family: sans-serif;
+}
+
+.header {
+    background-color: rgb(231, 232, 211);
+    display: flex;
+    justify-content: flex-start;
+}
+
+.main {
+    flex: 1;
+    padding: 1rem;
+
+    background-color: rgb(245, 243, 238);
+}
+
+.logo {
+    width: 5rem;
+    height: 5rem;
+    margin: 1rem;
+}
+
+.footer {
+    background-color: rgb(206, 201, 190);
+    list-style: none;
+    text-align: center;
+    padding: 1rem;
+}
